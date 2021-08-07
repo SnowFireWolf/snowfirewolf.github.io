@@ -14,10 +14,10 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/precache-manifest.0d47812f9ae2edf798c616363de2f1ac.js"
+  "/precache-manifest.2f8544462f4c1c4f1ec4882c4526e122.js"
 );
 
-workbox.core.setCacheNameDetails({prefix: "snow.io"});
+workbox.core.setCacheNameDetails({prefix: "snow-vue3"});
 
 self.addEventListener('message', (event) => {
   if (event.data && event.data.type === 'SKIP_WAITING') {
