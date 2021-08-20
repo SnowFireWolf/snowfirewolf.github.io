@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/precache-manifest.5a606ea8f2bde0c0eae05f14db7c701e.js"
+  "/precache-manifest.aacc4c8d41b7bd08ac9309c707c78432.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "snow-vue3"});
